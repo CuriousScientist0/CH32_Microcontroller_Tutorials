@@ -8,4 +8,5 @@ For example, the CH32V003J4M6 chip does not have an SPI peripheral, so the only 
 It is more resource-demanding, so it cannot drive as many LEDs as the SPI approach. However, it might still be a good choice for lightweight projects, for just a handful of LEDs.
 
 SPI article: https://curiousscientist.tech/blog/ch32v003f4p6-ws2812b-rgb-neopixel-driver
+
 TIM+DMA article: https://curiousscientist.tech/blog/ch32v003j4m6-mini-board-ws2812b-rgb-led-tim-pwm-dma

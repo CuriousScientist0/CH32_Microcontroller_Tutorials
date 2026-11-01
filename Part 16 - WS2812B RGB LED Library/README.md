@@ -7,6 +7,11 @@ The SPI approach is faster and more resourceful. It requires less memory, so it 
 For example, the CH32V003J4M6 chip does not have an SPI peripheral, so the only way to drive these LEDs with it is the timer + DMA approach.
 It is more resource-demanding, so it cannot drive as many LEDs as the SPI approach. However, it might still be a good choice for lightweight projects, for just a handful of LEDs.
 
+I also included libraries for the SK6812 RGB-NW and WWA LEDs in the corresponding subfolders. They have almost identical control principles to the WS2812B LEDs, so I thought
+it is a good idea to have everything together.
+
 SPI article: https://curiousscientist.tech/blog/ch32v003f4p6-ws2812b-rgb-neopixel-driver
 
 TIM+DMA article: https://curiousscientist.tech/blog/ch32v003j4m6-mini-board-ws2812b-rgb-led-tim-pwm-dma
+
+SK6812 article: https://curiousscientist.tech/blog/sk6812-rgbw-nw-a-potential-neopixel-dethroner
